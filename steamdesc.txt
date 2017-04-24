@@ -1,0 +1,29 @@
+This is an extension mod for StarTech. It adds custom themed objects that work with StarTech's scripts.
+---------------------------------------------------------------------------------------------
+
+Right now there is only the Outpost-like themed objects. But, there are more planned down the road.
+[b]Here is a list of planned themes[/b]
+[u]Vanilla Themes:[/u]
+- Wooden
+- Glitch village/Castle
+- Avian Tomb/Temple/Tribal
+- Hylotl City/Traditional
+- Novakid [i](I need some input help on this)[/i]
+- Floran
+- Apex Town/Lab
+- Human/Protectorate
+[u]Modded Themes:[/u]
+- Slime Race
+- Kazdra
+- Felin
+- Avali
+- Elithian Races
+- Familiars
+- Frackin' Universe Lab/Mytho
+- Greckan [i](I need some help on this one, since I have never played this race, yet...)[/i]
+- Orcana
+- And maybe even more (If sugested).
+
+---------------------------------------------------------------------------------------------
+[i]Original Mod Description:[/i]
+Transmatter networks! Technological advancements like you'd expect in a universe like Starbound's!
