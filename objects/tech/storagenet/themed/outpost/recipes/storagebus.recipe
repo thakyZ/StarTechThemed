@@ -5,6 +5,6 @@
     { "item" : "solidfuel", "count" : 1 }
   ],
   "output" : { "item" : "startech:storagenet.storagebus:outpost", "count" : 1 },
-  "duration" : 3,
-  "groups" : [ "inventorstable", "craftingstations", "all" ]
+  "duration" : 5,
+  "groups" : [ "startech:tinkertable", "storagenet", "all" ]
 }

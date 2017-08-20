@@ -1,12 +1,12 @@
 {
-  "version" : "^red;Alpha v0.02^reset; ^#878787;(^reset;SB v1.2.3^#878787;)^reset;",
+  "version" : "Alpha v0.04 (SB v1.3.2)",
   "steamContentId" : "880816560",
   "link" : "steam://url/CommunityFilePage/880816560",
-  "friendlyName" : "^blue;{^#00C2FF;( ^gray;StarTech Themed Objects ^#00C2FF;)^blue;}^reset;",
+  "friendlyName" : "StarTech-Themed",
   "requires" : ["StardustLib", "StarTech"],
-  "description" : "^blue;----------------------------------------\n            ^gray;^blue;{^#00C2FF;( ^gray;StarTech Themed Objects ^#00C2FF;)^blue;}^reset;\n^blue;----------------------------------------\n^#878787;This is an extension mod for ^blue;StarTech^#878787;.\nIt adds custom themed objects that work with StarTech's scripts.^reset;\n^blue;----------------------------------------\n^#878787;Right now there is only the Outpost-like themed objects, but there are more planned down the road.\n^gray;Here is a list of planned themes\n^reset;Vanilla Themes:\n^gray;- Wooden\n- Glitch village/Castle\n- Avian Tomb/Temple/Tribal\n- Hylotl City/Traditional\n- Novakid ^red;(I need some input help on this)\n^gray;- Floran\n- Apex Town/Lab\n- Human/Protectorate\n^blue;Modded Themes:\n^gray;- Slime Race\n- Kazdra\n- Felin\n- Avali\n- Elithian Races\n- Familiars\n- Frackin' Universe Lab/Mytho\n- Greckan ^red;(I need some help on this one, since I have never played this race, yet...)\n^gray;- Orcana\n- And maybe even more (If suggested).\n^blue;----------------------------------------\n^#878787;Original Mod Description:\n^gray;Transmatter networks! Technological advancements like you'd expect in a universe like Starbound's!",
+  "description" : "This is an extension mod for StarTech. It adds custom themed objects that work with StarTech's scripts.\n---------------------------------------------------------------------------------------------\nRight now there is only the Outpost-like themed objects. But, there are more planned down the road.\nHere is a list of planned themes:\n\nVanilla Themes:\n- Wooden\n- Glitch village/Castle\n- Avian Tomb/Temple/Tribal\n- Hylotl City/Traditional\n- Novakid (I need some input help on this)\n- Floran\n- Apex Town/Lab\n- Human/Protectorate\n\n\nModded Themes:\n- Slime Race\n- Kazdra\n- Felin\n- Avali\n- Elithian Races\n- Familiars\n- Frackin' Universe Lab/Mytho - Lab is done\n- Greckan [i](I need some help on this one, since I have never played this race, yet...)[/i]\n- Orcana\n- Slime\n- And maybe even more (If sugested).\n\n\n---------------------------------------------------------------------------------------------\nOriginal Mod Description:\nTransmatter networks! Technological advancements like you'd expect in a universe like Starbound's!",
   "name" : "StarTech-Themed",
   "path" : ".",
-  "includes" : ["StardustLib", "StarTech"],
-  "author" : "^#00C2FF;thakyZ^reset;"
+  //"includes" : ["StardustLib", "StarTech"],
+  "author" : "thakyZ"
 }

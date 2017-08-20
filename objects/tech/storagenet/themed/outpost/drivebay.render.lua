@@ -4,13 +4,13 @@ require "/scripts/interp.lua"
 
 function init()
   script.setUpdateDelta(3) -- was 5
-  
+
   self.drawPath = "/objects/tech/storagenet/themed/outpost/"
   self.dLight = self.drawPath .. "drivebay.light.png?multiply=00E4FF"
-  
+
   dPos = vec2.add(objectAnimator.position(), {-1, 0})
-  if objectAnimator.direction() == 1 then dPos[1] = dPos[1] + 10/8 end
-  dPos = vec2.add(dPos, vec2.mul({4, 16 - 5}, 1/8))
+  if objectAnimator.direction() == 1 then dPos[1] = dPos[1] + 5/8 end
+  dPos = vec2.add(dPos, vec2.mul({3, 16 - 5}, 1/8))
 end
 
 function hslToRgb(h, s, l, a)
@@ -46,14 +46,14 @@ end
 function update()
   localAnimator.clearDrawables()
   localAnimator.clearLightSources()
-  
+
   local lightStates = animationConfig.animationParameter("lights", {})
   if not lightStates then return nil end
-  
+
   for i,v in pairs(lightStates) do
   i = i - 1 -- 0-indexed pls
   local ddPos = vec2.add(dPos, vec2.mul({
-      (i % 2) * 4,
+      (i % 2) * 3,
       math.floor(i/2) * -2
     }, 1/8))
     localAnimator.addDrawable({

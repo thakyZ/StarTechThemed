@@ -9,8 +9,8 @@ function init()
   self.dLight = self.drawPath .. "drivebay.light.png?multiply=00FF00"
 
   dPos = vec2.add(objectAnimator.position(), {-1, 0})
-  if objectAnimator.direction() == 1 then dPos[1] = dPos[1] + 3/8 end
-  dPos = vec2.add(dPos, vec2.mul({4, 16 - 6}, 1/8))
+  if objectAnimator.direction() == 1 then dPos[1] = dPos[1] + 5/8 end
+  dPos = vec2.add(dPos, vec2.mul({3, 16 - 5}, 1/8))
 end
 
 function hslToRgb(h, s, l, a)
@@ -53,8 +53,8 @@ function update()
   for i,v in pairs(lightStates) do
   i = i - 1 -- 0-indexed pls
   local ddPos = vec2.add(dPos, vec2.mul({
-      (i % 2) * 4,
-      math.floor(i/2) * -2
+      (i % 2) * 4 - 1,
+      math.floor(i/2) * -2 - 1
     }, 1/8))
     localAnimator.addDrawable({
       image = self.dLight,

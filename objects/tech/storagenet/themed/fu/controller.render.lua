@@ -72,7 +72,7 @@ function update()
       self.dMask,
       "?blendmult=", self.dGlow, ";0;", math.floor(self.glowHeight - self.glowPos),
       "?blendmult=", self.dRain, ";0;", math.floor(self.rainPos),
-      "?multiply=", colorToString(hslToRgb(0.5, self.glowHue, 0.5, 1))
+      "?multiply=", colorToString(hslToRgb(self.glowHue, 1, 0.5, 1))
     }),
     position = pos,
     fullbright = true,
